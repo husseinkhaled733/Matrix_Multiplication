@@ -1,4 +1,4 @@
-# Install script for directory: /home/exception/CLionProjects/threads
+# Install script for directory: /home/exception/Matrix_Multiplication
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/exception/CLionProjects/threads/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/exception/Matrix_Multiplication/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

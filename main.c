@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <pthread.h>
-#include <time.h>
 #include <sys/time.h>
 #include <string.h>
 #define MAX 20
@@ -15,6 +13,7 @@ void* Mult_Per_Element(void* id);
 int Thread_Per_Row();
 int Thread_Per_Element();
 void write_to_file(char *file,char *phrase);
+void resetc();
 
 
 int a[MAX][MAX],b[MAX][MAX],c[MAX][MAX];
